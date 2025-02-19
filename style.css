@@ -1,0 +1,133 @@
+/* styles.css - ตกแต่งหน้าเว็บให้สวยงาม */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.user-item, .post-item {
+    background: #e3f2fd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.user-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.comments {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: green; /* เปลี่ยนเป็นสีเขียว */
+    color: white; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkgreen; /* สีเข้มขึ้นเมื่อชี้ */
+}
+
+.comments {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#user-detail {
+    text-align: left; /* จัดเนื้อหาไปทางซ้าย */
+    max-width: 600px; /* จำกัดความกว้างให้พอดี */
+    margin: auto; /* จัดให้อยู่ตรงกลางของหน้า */
+    padding: 20px;
+    background-color: #f8f9fa; /* สีพื้นหลังอ่อน ๆ */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comments {
+    background-color: #f8f9fa; /* สีพื้นหลัง */
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.comments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments li {
+    background: #fff;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.comment-btn:hover {
+    background-color: #218838;
+}
+
+.email-text {
+    color: #007bff; /* สีน้ำเงิน */
+    font-weight: bold; /* ตัวหนา */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+}
